@@ -1,0 +1,333 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-09-15T16:20:40.746Z",
+        "line": 3,
+        "name": "Verify an item can be created",
+        "description": "",
+        "id": "validating-product-api-s;verify-an-item-can-be-created",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1262657700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "An Apple Product \"Apple MacBook Pro 16\" with the spec \"Intel Core i9\" and price \"1849.99\" is created",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple MacBook Pro 16\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Intel Core i9\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"1849.99\"",
+                  "offset": 80
+                }
+              ],
+              "location": "StepDefination.productCreation(String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1716859300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the request to add the item \"POST\" is made",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.addProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c405\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinations.StepDefination.successfulResponse(StepDefination.java:99)\r\n\tat ✽.a \"200\" response code is returned(file:src/test/java/features/productValidations.feature:6)\r\n",
+              "duration": 3160100,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "a \"200\" response code is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 2
+                }
+              ],
+              "location": "StepDefination.successfulResponse(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "verify product \"name\" created with the value \"Apple MacBook Pro 16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Apple MacBook Pro 16\"",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefination.verify_value_in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "delete the created product",
+            "match": {
+              "location": "StepDefination.deleteProduct()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Product"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-15T16:20:43.768Z",
+        "line": 11,
+        "name": "Ability to return an item",
+        "description": "",
+        "id": "validating-product-api-s;ability-to-return-an-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 108100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a product id \"3\" to view the details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefination.viewProduct(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 346343400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the request to add the item \"GET\" is made",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.addProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c405\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinations.StepDefination.successfulResponse(StepDefination.java:99)\r\n\tat ✽.a \"200\" response code is returned(file:src/test/java/features/productValidations.feature:14)\r\n",
+              "duration": 163500,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "a \"200\" response code is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 2
+                }
+              ],
+              "location": "StepDefination.successfulResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Product"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-15T16:20:44.116Z",
+        "line": 17,
+        "name": "Ability to list multiple items",
+        "description": "",
+        "id": "validating-product-api-s;ability-to-list-multiple-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2029100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "a request to view multiple details",
+            "match": {
+              "location": "StepDefination.viewMultipleProduct()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.fasterxml.jackson.databind.JsonNode.get(String)\" because \"jsonNode\" is null\r\n\tat stepDefinations.StepDefination.addProduct(StepDefination.java:84)\r\n\tat ✽.the request to add the item \"LIST ITEMS\" is made(file:src/test/java/features/productValidations.feature:19)\r\n",
+              "duration": 276724400,
+              "status": "failed"
+            },
+            "line": 19,
+            "name": "the request to add the item \"LIST ITEMS\" is made",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LIST ITEMS\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.addProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18700,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "a \"200\" response code is returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 2
+                }
+              ],
+              "location": "StepDefination.successfulResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Product"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-09-15T16:20:44.395Z",
+        "line": 23,
+        "name": "Ability not to return an item with incorrect ID",
+        "description": "",
+        "id": "validating-product-api-s;ability-not-to-return-an-item-with-incorrect-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "a product id \"1983\" to view the details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1983\"",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefination.viewProduct(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 324723000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the request to add the item \"GET\" is made",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.addProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c405\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat stepDefinations.StepDefination.unsuccessfulResponse(StepDefination.java:105)\r\n\tat ✽.a \"200\" response code is not returned(file:src/test/java/features/productValidations.feature:26)\r\n",
+              "duration": 380100,
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "a \"200\" response code is not returned",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 2
+                }
+              ],
+              "location": "StepDefination.unsuccessfulResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Product"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Product API\u0027s",
+    "description": "",
+    "id": "validating-product-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/productValidations.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,129 @@
+Request method:	POST
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": "2019",
+        "price": "1849.99",
+        "cpu_model": "Intel Core i9",
+        "hard_disk_size": "1 TB"
+    }
+}
+HTTP/1.1 405 Method Not Allowed
+Date: Fri, 15 Sep 2023 16:20:42 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2xAkL6zb19HudnTJBy%2BM%2Ben8FOC1fYnY9A%2B45GMH%2FQC2wwDH5B44%2FiUbgliOVDuRag4U7zdVxuvBM7vhH0GVWOxQgI%2F3CnMPbv07uoAOGBKlGMupdLh5ffvjdubap4P1QfMqjlBZ"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 807232d3ce0c7731-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "We are very sorry but you reached your limit of requests per day. Our current limit is equal to 100 requests per day. The reason for that is the fact that servers cost money and 200 requests per user per day is all that we can afford at the moment. Tomorrow the limit will reset and you will be able to continue. Thanks and have a good day!"
+}
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 Method Not Allowed
+Date: Fri, 15 Sep 2023 16:20:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yQqt0HYZ1Tx52shgDOq8B4HALZBHElmGjZDqDvGOuW5ydXNgEeETpRCuWMROJoNxtpvmSfGDh9BuXV%2BOyovOzYVPZY6KAf6%2FaGAYPCGb%2By47q253WPbRFsc6XAVwvovGg%2Fag%2FBdA"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 807232d929ea732a-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "We are very sorry but you reached your limit of requests per day. Our current limit is equal to 100 requests per day. The reason for that is the fact that servers cost money and 200 requests per user per day is all that we can afford at the moment. Tomorrow the limit will reset and you will be able to continue. Thanks and have a good day!"
+}
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 Method Not Allowed
+Date: Fri, 15 Sep 2023 16:20:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eNFSarGrk91902BZmYPKfOtlt0Lb47sqg0Q4xAl6%2FzKMZml4ChQ%2BFphBYI%2BkImmhKqkc%2B%2FgEI6UnWu4sWWFp0P1aasat%2Fwwty%2BJflT%2F8%2BK0M1pN0kd359TGRnfFi9RLPfE2FBu%2Bn"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 807232daf8be539f-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "We are very sorry but you reached your limit of requests per day. Our current limit is equal to 100 requests per day. The reason for that is the fact that servers cost money and 200 requests per user per day is all that we can afford at the moment. Tomorrow the limit will reset and you will be able to continue. Thanks and have a good day!"
+}
+Request method:	GET
+Request URI:	https://api.restful-api.dev/objects/1983
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 405 Method Not Allowed
+Date: Fri, 15 Sep 2023 16:20:43 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Origin
+Vary: Access-Control-Request-Method
+Vary: Access-Control-Request-Headers
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6zzZ7a1E2PCCZOWFDZ2EGqtx7Wmsg%2FfsiHPXskOnbKlgaqKooFKvpHrutxcTjDapAfsqrawrmTzvpttazxdYEDGDNxcKuCyCcQP2mEKDsYykA7%2FxollXtD4sktreH5raQVhoJ9j1"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 807232dcb80776e7-LHR
+alt-svc: h3=":443"; ma=86400
+
+{
+    "error": "We are very sorry but you reached your limit of requests per day. Our current limit is equal to 100 requests per day. The reason for that is the fact that servers cost money and 200 requests per user per day is all that we can afford at the moment. Tomorrow the limit will reset and you will be able to continue. Thanks and have a good day!"
+}
